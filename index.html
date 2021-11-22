@@ -3,22 +3,59 @@
     <head>
         <meta charset="UTF-8">
         <title>Aprendendo HTML</title>
+        <style>
+            h1{
+                margin-top: 50px;
+            }
+            h1, h3{
+                color:#EE4938;
+            }
+            
+            .sumario{
+                float: right;
+                margin-left: 50px;
+                list-style-type: none;
+            }
+            body{
+                font-family: Sans-serif;
+                margin-left: 100px;
+                margin-right: 100px;
+                margin-top: 50px;
+            }
+            a:link {
+            color:#ff0000;
+            text-decoration:none;
+            }
+            a:visited {
+            color:#3a3a3a;
+            text-decoration:none;
+            }
+            a:hover {
+            color:#EE4938;
+            text-decoration:none;
+            }
+            a:active {
+            color:#EE4938;
+            text-decoration:none;
+            }
+
+        </style>
     </head>
     <body>
-        <h3>Sumário</h3>
         <ul>
-            <li><a href="#foto">Foto</a></li>
-            <li><a href="#apresentacao">Apresentação</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
+            <li class="sumario"><a href="#habilidades">HABILIDADES</a></li>
+            <li class="sumario"><a href="#apresentacao">APRESENTAÇÃO</a></li>
+            <li class="sumario"><a href="#foto">FOTO</a></li>
+            
         </ul>
         <h1>Lindsey Oliva Fontana Schmitz</h1>
       
         <img src="foto-lindsey.jpeg" id="foto" width="200px" alt="Rosto de Lindsey sorrindo." title="Lindsey">
         <h3 id="apresentacao">APRESENTAÇÃO</h3>
         <p>Nasci e resido em Florianópolis/SC. Sou bacharel em Serviço Social, graduada pela Universidade Federal de Santa Catarina. <br/>Atualmente estou em <strong>transição de carreira</strong>, busco <strong>tornar-me uma desenvolvedora web</strong>. Tenho encontrado prazer em programar e estudar sobre o assunto. <br/> <br/>
-            Para ajudar nessa imersão ao mundo da tecnologia, tenho ouvido alguns podcasts, dentre eles o <a href="https://hipsters.tech/" target="_blancket">hipsters.tech</a>. Mesmo que alguns temas sejam avançados para uma iniciante, <br> acredito que esse hábito seja proveitoso, visto que me mantém familiarizada com as temáticas, nomenclatura e linguajares que cercam a área.</p>
+            Para ajudar nessa imersão ao mundo da tecnologia, tenho ouvido alguns podcasts, dentre eles o <a style="text-decoration: underline; color: #EE4938" href="https://hipsters.tech/" target="_blancket">hipsters.tech</a>. Mesmo que alguns temas sejam avançados para uma iniciante, acredito que esse hábito seja proveitoso, visto que me mantém familiarizada com as temáticas, nomenclatura e linguajares que cercam a área.</p>
 
-            <h3 id="habilidades">HABILIDADES:</h3>
+            <h3 id="habilidades">HABILIDADES</h3>
         <ul>
         <em>
             <li>Comprometimento</li>
