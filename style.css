@@ -1,0 +1,129 @@
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: rgb(75, 193, 141);
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+nav {
+  margin: 0%;
+  padding-left: 0;
+  font-size: 20px;
+  text-align: right;
+  background-color: white;
+  color: rgb(238, 73, 56);
+  height: 50px;
+}
+
+li:nth-of-type( 2 ) {
+  color: rgb(58, 58, 58);
+}
+
+li:nth-of-type( 4 ) {
+  color: rgb(58, 58, 58);
+}
+
+a:link {
+  color: rgb(238, 73, 56);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(238, 73, 56);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(58, 58, 58);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(238, 73, 56);
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 10% 0 0;
+  font-family: Montserrat, serif;
+  line-height: 30px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  margin-left: 10%;
+  line-height: 25px;
+}
+
+.lado-direito {
+  display: inline-block;
+  margin-left: 8%;
+  line-height: 25px;
+}
+
+main {
+  margin: 0 20%;
+}
+
+section {
+  padding: 1%;
+}
+
+td , th {
+  border: 2px solid gray;
+  text-align: center;
+}
+
+table {
+  margin: 0% 20% 5% 30%;
+}
+
+img {
+  width: 20%;
+  border-radius: 12%;
+}
+
+footer > p {
+  background-color: rgb(238, 73, 56);
+  padding: 3%;
+  color: white;
+  margin: 0;
+}
+
+article {
+  margin: 10px;
+  display: inline-block;
+  width: 70%;
+  text-align: center;
+  line-height: 25px;
+  vertical-align: top;
+}
+
+aside {
+  width: 15%;
+  background-color: rgb(236, 232, 232);
+  border-radius: 5%;
+  float: right;
+  line-height: 25px;
+  margin: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.linha {
+  margin-right: 30px;
+  display: inline-block;
+  text-align: right;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+article > ul {
+  list-style: none;
+}

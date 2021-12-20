@@ -1,68 +1,126 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Aprendendo HTML</title>
-        <style>
-            h1{
-                margin-top: 50px;
-            }
-            h1, h3{
-                color:#EE4938;
-            }
-            
-            .sumario{
-                float: right;
-                margin-left: 50px;
-                list-style-type: none;
-            }
-            body{
-                font-family: Sans-serif;
-                margin-left: 100px;
-                margin-right: 100px;
-                margin-top: 50px;
-            }
-            a:link {
-            color:#ff0000;
-            text-decoration:none;
-            }
-            a:visited {
-            color:#3a3a3a;
-            text-decoration:none;
-            }
-            a:hover {
-            color:#EE4938;
-            text-decoration:none;
-            }
-            a:active {
-            color:#EE4938;
-            text-decoration:none;
-            }
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="style.css">
+		<title>Project Lessons Learned</title>
+	</head>
+	<body>
+		
+		<header id="cabecalho">
+			<h1 id="titulo">Lindsey Oliva Fontana Schmitz</h1>
 
-        </style>
-    </head>
-    <body>
-        <ul>
-            <li class="sumario"><a href="#habilidades">HABILIDADES</a></li>
-            <li class="sumario"><a href="#apresentacao">APRESENTAÇÃO</a></li>
-            <li class="sumario"><a href="#foto">FOTO</a></li>
-            
-        </ul>
-        <h1>Lindsey Oliva Fontana Schmitz</h1>
-      
-        <img src="foto-lindsey.jpeg" id="foto" width="200px" alt="Rosto de Lindsey sorrindo." title="Lindsey">
-        <h3 id="apresentacao">APRESENTAÇÃO</h3>
-        <p>Nasci e resido em Florianópolis/SC. Sou bacharel em Serviço Social, graduada pela Universidade Federal de Santa Catarina. <br/>Atualmente estou em <strong>transição de carreira</strong>, busco <strong>tornar-me uma desenvolvedora web</strong>. Tenho encontrado prazer em programar e estudar sobre o assunto. <br/> <br/>
-            Para ajudar nessa imersão ao mundo da tecnologia, tenho ouvido alguns podcasts, dentre eles o <a style="text-decoration: underline; color: #EE4938" href="https://hipsters.tech/" target="_blancket">hipsters.tech</a>. Mesmo que alguns temas sejam avançados para uma iniciante, acredito que esse hábito seja proveitoso, visto que me mantém familiarizada com as temáticas, nomenclatura e linguajares que cercam a área.</p>
+			<nav>
+				<ul class="sumario">
+					<li class="linha"><a href="#relato">Relato</a></li>
+					<li class="linha">/</li>
+					<li class="linha"><a href="#conteudo">Conteúdos</a></li>
+					<li class="linha">/</li>
+					<li class="linha"><a href="#contato">Contato</a></li>
+				</ul>
+			</nav>
 
-            <h3 id="habilidades">HABILIDADES</h3>
-        <ul>
-        <em>
-            <li>Comprometimento</li>
-            <li>Persistência</li>
-            <li>Disposição para aprender</li>
-            <li>Empatia</li>
-        </ul>
-    </em>
-    </body>
-</html>
+		</header>
+
+		<aside>
+			<p>Atualmente consigo criar páginas web simples usando HTML e CSS. Estou animada para aprender JavaScript.</p>	
+		</aside>
+
+		<main>
+			<section id="relato">
+				<img id="minha_foto" src="imagens/foto-lindsey.jpeg" alt="Foto de uma mulher sorrindo.">
+
+				<article>
+					<p>Sou graduada pela Universidade Federal de Santa Catarina. <br/>Atualmente estou em <strong>transição de carreira</strong>, busco tornar-me uma <strong>desenvolvedora web</strong>.
+
+					<p>Através da <a href="https://www.betrybe.com/" target="_blank" title="abre em uma nova aba">Trybe </a>, tenho obtido o suporte necessário para alcançar esse objetivo. Em um curto período de tempo consegui desenvolver minhas habilidades técnicas. Percebo que estou realmente absorvendo os conteúdos e sinto-me amparada para construir minha carreira.</p>
+
+					<ul id='contato'>					
+						<li><strong><a href="https://www.linkedin.com/in/lindsey-oliva-fontana-schmitz-1a900316a/" target="_blank" title="abre em uma nova aba">Linkedin</a></strong></li>
+						<li><strong><a href="https://github.com/LindseyFontana?tab=repositories" target="_blank" title="abre em uma nova aba">Git Hub</a></strong></li>
+					</ul>
+
+				</article>
+			<hr/>
+			</section>
+			
+			<section id="conteudo">
+				<div class="lado-esquerdo">
+					<h2>O que já aprendi:</h2>
+					<ol id="licoes_aprendidas">
+						<li>Unix</li>
+						<li>Git</li>
+						<li>GitHub</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Semantic HTML</li>
+						<li>Autogestão</li>
+						<li>Liderança</li>
+						<li>Diversidade & Inclusão</li>
+						<li>Feedbacks</li>	
+					</ol>
+				</div>
+
+				<div class="lado-direito">
+					<h2>O que irei aprender:</h2>
+					<ul id="licoes_a_aprender">
+						<li>JavaScript</li>
+						<li>React</li>
+						<li>NodeJS</li>
+						<li>DOM</li>
+						<li>SQL</li>
+						<li>MongoDB</li>
+						<li>Testes unitários</li>
+						<li>Programação Orientada a Objetos</li>
+						<li>Algoritmos</li>
+						<li>Estruturas de Dados</li>
+					</ul>
+				</div>
+				<hr/>
+			</section>
+			
+			<table>
+				<caption>Dia-a-dia na Trybe</caption>
+
+				<tr>
+					<th>Dia de conteúdo</th>
+					<th>Dia de projetos</th>
+				</tr>
+				<tr>
+					<td>SoftSkill</td>
+					<td>Mentoria técnica</td>
+				</tr>
+				<tr>
+					<td>Conteúdo no course</td>
+					<td>Projeto</td>
+				</tr>
+				<tr>
+					<td>Aula ao vivo</td>
+					<td>Mentoria técnica</td>
+				</tr>
+				<tr>
+					<td>Exercícios</td>
+					<td>Projeto</td>
+				</tr>
+				<tr>
+					<td>Mentoria técnica</td>
+					<td>Mentoria técnica</td>
+				</tr>
+				<tr>
+					<td>Fechamento</td>
+					<td>Fechamento</td>
+				</tr>					
+			</table>
+		
+		</main>
+
+		<footer id="rodape">
+			<p>Conteúdo criado por Lindsey Fontana, 2021.</p>
+		</footer>
+	</body>
+</html>                                     
